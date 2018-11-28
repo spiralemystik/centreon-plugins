@@ -24,12 +24,8 @@ use strict;
 use warnings;
 
 my %map_status = (
-    1 => 'ok',
-    2 => 'minor',
-    3 => 'major',
-    4 => 'critical',
-    5 => 'absence',
-    6 => 'unknown',
+    0 => 'ok',
+    65535 => 'unknown',
 );
 
 my $mapping = {
